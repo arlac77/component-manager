@@ -31,7 +31,7 @@
     "pacote": "^9.1.0"
   },
   "devDependencies": {
-    "documentation": "^8.1.1",
+    "documentation": "^8.1.2",
     "markdown-doctest": "^0.9.1",
     "nyc": "^13.0.1",
     "ava": "^0.25.0",
@@ -43,7 +43,7 @@
     "rollup-plugin-istanbul": "^2.0.1",
     "rollup-plugin-executable": "^1.3.0",
     "semantic-release": "^15.9.9",
-    "travis-deploy-once": "^5.0.2"
+    "travis-deploy-once": "^5.0.3"
   },
   "engines": {
     "node": ">=10.9"
@@ -57,13 +57,24 @@
   },
   "homepage": "https://github.com/arlac77/component-manager#readme",
   "ava": {
-    "files": ["build/*-test.js"],
-    "presets": ["env"],
-    "require": ["babel-register"]
+    "files": [
+      "build/*-test.js"
+    ],
+    "presets": [
+      "env"
+    ],
+    "require": [
+      "babel-register"
+    ]
   },
   "nyc": {
-    "include": ["build/*-test.js"],
-    "reporter": ["lcov", "text"],
+    "include": [
+      "build/*-test.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
     "report-dir": "./build/coverage"
   },
   "xo": {
