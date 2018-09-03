@@ -1,11 +1,13 @@
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
-import executable from 'rollup-plugin-executable';
-import cleanup from 'rollup-plugin-cleanup';
-import pkg from './package.json';
+import resolve from "rollup-plugin-node-resolve";
+import commonjs from "rollup-plugin-commonjs";
+import executable from "rollup-plugin-executable";
+import cleanup from "rollup-plugin-cleanup";
+import pkg from "./package.json";
+
+const external = ["pacote"];
 
 export default [
-  ...Object.keys(pkg.bin || {}).map(name => {
+  /*...Object.keys(pkg.bin || {}).map(name => {
     return {
       input: `src/${name}.js`,
       output: {
@@ -16,14 +18,15 @@ export default [
       },
       plugins: [resolve(), commonjs(), cleanup(), executable()]
     };
-  }),
+  }),*/
   {
     input: pkg.module,
     output: {
       file: pkg.main,
-      format: 'cjs',
+      format: "cjs",
       interop: false
     },
-    plugins: [resolve(), commonjs(), cleanup()]
+    external,
+    plugins: [/*resolve() */ commonjs(), cleanup()]
   }
 ];
