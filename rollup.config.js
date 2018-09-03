@@ -4,7 +4,11 @@ import executable from "rollup-plugin-executable";
 import cleanup from "rollup-plugin-cleanup";
 import pkg from "./package.json";
 
-const external = ["pacote"];
+const external = [
+  "pacote",
+  "github-repository-provider",
+  "aggregation-repository-provider"
+];
 
 export default [
   /*...Object.keys(pkg.bin || {}).map(name => {

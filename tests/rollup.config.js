@@ -11,7 +11,12 @@ export default {
     sourcemap: true,
     interop: false
   },
-  external: ["ava", "pacote"],
+  external: [
+    "ava",
+    "pacote",
+    "github-repository-provider",
+    "aggregation-repository-provider"
+  ],
   plugins: [
     multiEntry(),
     resolve(),

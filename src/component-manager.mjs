@@ -17,3 +17,8 @@ export async function initialize() {
   const pkg = await pacote.manifest("pacote@^1");
   console.log(pkg);
 }
+
+export async analyze(repository) {
+  const branch = await repository.defaultBranch()
+  const content = await branch.content('package.json');
+}
