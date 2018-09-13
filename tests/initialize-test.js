@@ -1,6 +1,6 @@
 import test from "ava";
 
-import { initialize } from "../src/component-manager";
+import { initialize } from "../src/initialize";
 
 test("initialize", async t => {
   await initialize();

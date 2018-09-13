@@ -3,6 +3,7 @@ import commonjs from "rollup-plugin-commonjs";
 import executable from "rollup-plugin-executable";
 import cleanup from "rollup-plugin-cleanup";
 import pkg from "./package.json";
+import json from "rollup-plugin-json";
 
 const external = [
   "pacote",
@@ -22,7 +23,7 @@ export default [
         interop: false
       },
       external,
-      plugins: [/*resolve(),*/ commonjs(), cleanup(), executable()]
+      plugins: [/*resolve(),*/ json(), commonjs(), cleanup(), executable()]
     };
   }),
   {
@@ -33,6 +34,6 @@ export default [
       interop: false
     },
     external,
-    plugins: [/*resolve(),*/ commonjs(), cleanup()]
+    plugins: [/*resolve(),*/ json(), commonjs(), cleanup()]
   }
 ];
