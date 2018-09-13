@@ -11,18 +11,20 @@ const external = [
 ];
 
 export default [
-  /*...Object.keys(pkg.bin || {}).map(name => {
+  ...Object.keys(pkg.bin || {}).map(name => {
     return {
-      input: `src/${name}.js`,
+      input: `src/${name}.mjs`,
       output: {
         file: pkg.bin[name],
-        format: 'cjs',
-        banner: '#!/usr/bin/env node',
+        format: "cjs",
+        banner:
+          "#!/usr/bin/env node --experimental-modules --experimental-worker",
         interop: false
       },
-      plugins: [resolve(), commonjs(), cleanup(), executable()]
+      external,
+      plugins: [/*resolve(),*/ commonjs(), cleanup(), executable()]
     };
-  }),*/
+  }),
   {
     input: pkg.module,
     output: {
@@ -31,6 +33,6 @@ export default [
       interop: false
     },
     external,
-    plugins: [/*resolve() */ commonjs(), cleanup()]
+    plugins: [/*resolve(),*/ commonjs(), cleanup()]
   }
 ];

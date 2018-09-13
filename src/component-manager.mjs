@@ -18,7 +18,7 @@ export async function initialize() {
   console.log(pkg);
 }
 
-export async analyze(repository) {
-  const branch = await repository.defaultBranch()
-  const content = await branch.content('package.json');
+export async function analyze(repository) {
+  const branch = await repository.defaultBranch();
+  const content = await branch.content("package.json");
 }
