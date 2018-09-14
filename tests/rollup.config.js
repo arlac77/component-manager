@@ -20,12 +20,11 @@ export default {
   ],
   plugins: [
     multiEntry(),
-    plugins: [
-      babel({
-        babelrc: false,
-        plugins: ["@babel/plugin-proposal-async-generator-functions"],
-        exclude: "node_modules/**"
-      }),
+    babel({
+      babelrc: false,
+      plugins: ["@babel/plugin-proposal-async-generator-functions"],
+      exclude: "node_modules/**"
+    }),
     resolve(),
     commonjs(),
     istanbul({
