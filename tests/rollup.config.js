@@ -1,4 +1,5 @@
 import multiEntry from "rollup-plugin-multi-entry";
+import babel from "rollup-plugin-babel";
 import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import istanbul from "rollup-plugin-istanbul";
@@ -19,6 +20,12 @@ export default {
   ],
   plugins: [
     multiEntry(),
+    plugins: [
+      babel({
+        babelrc: false,
+        plugins: ["@babel/plugin-proposal-async-generator-functions"],
+        exclude: "node_modules/**"
+      }),
     resolve(),
     commonjs(),
     istanbul({
