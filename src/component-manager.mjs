@@ -9,7 +9,7 @@ caporal
   .command("start", "start service")
   .option("-c, --config <file>", "use config from file")
   .action(async (args, options) => {
-    initiaize(args, options);
+    initialize(args, options);
   });
 
 caporal.parse(process.argv);
