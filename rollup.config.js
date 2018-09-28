@@ -32,7 +32,11 @@ export default [
           plugins: ["@babel/plugin-proposal-async-generator-functions"],
           exclude: "node_modules/**"
         }),
-        json(),
+        json({
+          include: "package.json",
+          preferConst: true,
+          compact: true
+        }),
         commonjs(),
         cleanup(),
         executable()
