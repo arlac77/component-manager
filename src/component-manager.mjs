@@ -1,15 +1,24 @@
-import { version } from "../package.json";
-import { initialize } from "./initialize";
+import pacote from "pacote";
+import { GithubProvider } from "github-repository-provider";
+import { AggregationProvider } from "aggregation-repository-provider";
 
-const caporal = require("caporal");
+export async function initialize(args, options) {
+  const rp = new AggregationProvider([
+    new GithubProvider(GithubProvider.optionsFromEnvironment(process.env))
+  ]);
 
-caporal
-  .description("manages components and its dependencies")
-  .version(version)
-  .command("start", "start service")
-  .option("-c, --config <file>", "use config from file")
-  .action(async (args, options) => {
-    initialize(args, options);
-  });
+  const rg = await rp.repositoryGroup("arlac77");
+  console.log(rg.name);
+  //console.log(rg.repositories.keys());
+  console.log(rp.repositories.keys());
 
-caporal.parse(process.argv);
+  //rp.repositoryOwners();
+
+  const pkg = await pacote.manifest("pacote@^1");
+  console.log(pkg);
+}
+
+export async function analyze(repository) {
+  const branch = await repository.defaultBranch();
+  const content = await branch.content("package.json");
+}

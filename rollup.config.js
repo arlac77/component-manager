@@ -9,13 +9,14 @@ import json from "rollup-plugin-json";
 const external = [
   "pacote",
   "github-repository-provider",
-  "aggregation-repository-provider"
+  "aggregation-repository-provider",
+  "caporal"
 ];
 
 export default [
   ...Object.keys(pkg.bin || {}).map(name => {
     return {
-      input: `src/${name}.mjs`,
+      input: `src/${name}-cli.mjs`,
       output: {
         file: pkg.bin[name],
         format: "cjs",
@@ -25,7 +26,7 @@ export default [
       },
       external,
       plugins: [
-        /*resolve(),*/ babel({
+        babel({
           runtimeHelpers: false,
           externalHelpers: true,
           babelrc: false,
@@ -52,7 +53,8 @@ export default [
     },
     external,
     plugins: [
-      /*resolve(),*/ babel({
+      resolve(),
+      babel({
         runtimeHelpers: false,
         externalHelpers: true,
         babelrc: false,
