@@ -7,7 +7,6 @@
 [![Coverage Status](https://coveralls.io/repos/arlac77/component-manager/badge.svg)](https://coveralls.io/r/arlac77/component-manager)
 [![Known Vulnerabilities](https://snyk.io/test/github/arlac77/component-manager/badge.svg)](https://snyk.io/test/github/arlac77/component-manager)
 [![GitHub Issues](https://img.shields.io/github/issues/arlac77/component-manager.svg?style=flat-square)](https://github.com/arlac77/component-manager/issues)
-[![Stories in Ready](https://badge.waffle.io/arlac77/component-manager.svg?label=ready&title=Ready)](http://waffle.io/arlac77/component-manager)
 [![Dependency Status](https://david-dm.org/arlac77/component-manager.svg)](https://david-dm.org/arlac77/component-manager)
 [![devDependency Status](https://david-dm.org/arlac77/component-manager/dev-status.svg)](https://david-dm.org/arlac77/component-manager#info=devDependencies)
 [![docs](http://inch-ci.org/github/arlac77/component-manager.svg?branch=master)](http://inch-ci.org/github/arlac77/component-manager)
