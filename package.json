@@ -29,7 +29,7 @@
   "dependencies": {
     "aggregation-repository-provider": "^2.0.15",
     "caporal": "^1.1.0",
-    "config-expander": "^9.1.8",
+    "config-expander": "^10.2.4",
     "github-repository-provider": "^4.0.0",
     "pacote": "^9.1.0"
   },
