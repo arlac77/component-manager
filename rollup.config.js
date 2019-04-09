@@ -7,14 +7,48 @@ import pkg from "./package.json";
 import json from "rollup-plugin-json";
 
 const external = [
-  "pacote",
-  "github-repository-provider",
-  "aggregation-repository-provider",
-  "caporal"
+  "assert",
+  "async_hooks",
+  "buffer",
+  "child_process",
+  "cluster",
+  "console",
+  "constants",
+  "crypto",
+  "dgram",
+  "dns",
+  "domain",
+  "events",
+  "fs",
+  "http",
+  "http2",
+  "https",
+  "inspector",
+  "module",
+  "net",
+  "os",
+  "path",
+  "perf_hooks",
+  "process",
+  "punycode",
+  "querystring",
+  "readline",
+  "repl",
+  "stream",
+  "string_decoder",
+  "sys",
+  "timers",
+  "tls",
+  "trace_events",
+  "tty",
+  "url",
+  "util",
+  "v8",
+  "vm",
+  "zlib"
 ];
 
-export default [
-  ...Object.keys(pkg.bin || {}).map(name => {
+export default Object.keys(pkg.bin || {}).map(name => {
     return {
       input: `src/${name}-cli.mjs`,
       output: {
@@ -43,27 +77,4 @@ export default [
         executable()
       ]
     };
-  }),
-  {
-    input: pkg.module,
-    output: {
-      file: pkg.main,
-      format: "cjs",
-      interop: false
-    },
-    external,
-    plugins: [
-      resolve(),
-      babel({
-        runtimeHelpers: false,
-        externalHelpers: true,
-        babelrc: false,
-        plugins: ["@babel/plugin-proposal-async-generator-functions"],
-        exclude: "node_modules/**"
-      }),
-      json(),
-      commonjs(),
-      cleanup()
-    ]
-  }
-];
+  });

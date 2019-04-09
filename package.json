@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "aggregation-repository-provider": "^2.0.15",
-    "caporal": "^1.1.0",
+    "commander": "^2.20.0",
     "config-expander": "^10.2.4",
-    "github-repository-provider": "^4.0.0",
+    "github-repository-provider": "^7.0.9",
     "pacote": "^9.1.0"
   },
   "devDependencies": {
