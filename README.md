@@ -1,6 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/arlac77/component-manager.png)](http://travis-ci.org/arlac77/component-manager)
 [![codecov.io](http://codecov.io/github/arlac77/component-manager/coverage.svg?branch=master)](http://codecov.io/github/arlac77/component-manager?branch=master)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Coverage Status](https://coveralls.io/repos/arlac77/component-manager/badge.svg)](https://coveralls.io/r/arlac77/component-manager)
 [![downloads](http://img.shields.io/npm/dm/component-manager.svg?style=flat-square)](https://npmjs.org/package/component-manager)
 [![GitHub Issues](https://img.shields.io/github/issues/arlac77/component-manager.svg?style=flat-square)](https://github.com/arlac77/component-manager/issues)
