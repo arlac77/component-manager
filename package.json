@@ -30,7 +30,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@kronos-integration/service": "^8.2.2",
+    "@kronos-integration/service": "^8.2.3",
     "aggregation-repository-provider": "^2.0.15",
     "commander": "^4.0.1",
     "config-expander": "^11.0.5",
