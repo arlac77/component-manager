@@ -1,25 +1,27 @@
 [Unit]
-Description=manages components and its dependencies
+Description={{description}}
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=notify
-ExecStart=/usr/bin/node --title component-manager {{installdir}}/bin/component-manager-systemd
+ExecStart=/usr/bin/node --title {{name}} {{installdir}}/bin/{{name}}-systemd
 ExecReload=/bin/kill -HUP $MAINPID
 TimeoutStartSec=20
 StandardOutput=syslog
-User=component-manager
-Group=component-manager
+User={{name}}
+Group={{name}}
 PrivateTmp=true
 NoNewPrivileges=true
-RuntimeDirectory=component-manager
-StateDirectory=component-manager
-ConfigurationDirectory=component-manager
+RuntimeDirectory={{name}}
+StateDirectory={{name}}
+ConfigurationDirectory={{name}}
 NotifyAccess=all
 FileDescriptorStoreMax=2
-
 Environment="LOGLEVEL=trace"
+MemoryAccounting=true
+MemoryHigh=150M
+MemoryMax=200M
 
 [Install]
 WantedBy=multi-user.target
