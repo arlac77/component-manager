@@ -4,4 +4,4 @@ MaxConnections=4
 FileDescriptorName=http.listen.socket
 
 [Install]
-RequiredBy=component-manager.service
+RequiredBy={{name}}.service
