@@ -1,0 +1,10 @@
+{
+  "name": "component-manager",
+  "description": "manages components and its dependencies",
+  "icons": [
+    {
+      "src": "facicon.ico",
+      "sizes": "16x16"
+    }
+  ]
+}
