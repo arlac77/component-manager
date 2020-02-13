@@ -32,7 +32,7 @@
     "docs": "documentation readme src/component-manager.mjs --section=API",
     "lint": "documentation lint src/component-manager.mjs",
     "prepare": "rollup -c",
-    "test": "ava --timeout 2m"
+    "test": "ava --node-arguments '--experimental-modules' --timeout 2m"
   },
   "dependencies": {
     "@kronos-integration/service": "^8.3.16",
