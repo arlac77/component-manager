@@ -12,13 +12,24 @@ const { name, version, description, bin } = JSON.parse(
   readFileSync("./package.json", { encoding: "utf8" })
 );
 
-const external = [...builtins, "bufferutil", "utf-8-validate"];
+const external = [
+  ...builtins,
+  "bufferutil",
+  "utf-8-validate",
+  "@octokit/rest",
+  "@octokit/plugin-throttling",
+  "node-fetch",
+  "universal-user-agent",
+  "normalize-package-data",
+  "cacache",
+  "npm-registry-fetch"
+];
 
 const plugins = [
   consts({
     name,
     version,
-    description,
+    description
   }),
   commonjs(),
   resolve(),
