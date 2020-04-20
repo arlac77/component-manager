@@ -24,8 +24,8 @@
   ],
   "license": "BSD-2-Clause",
   "bin": {
-    "component-manager": "bin/component-manager",
-    "component-manager-systemd": "bin/component-manager-systemd"
+    "component-manager": "src/component-manager-cli.mjs",
+    "component-manager-systemd": "bin/component-manager-systemd-cli.mjs"
   },
   "scripts": {
     "prepare": "rollup -c",
@@ -65,7 +65,7 @@
     "semantic-release": "^17.0.6"
   },
   "optionalDependencies": {
-    "@kronos-integration/service-systemd": "^2.2.13"
+    "@kronos-integration/service-systemd": "^2.3.0"
   },
   "engines": {
     "node": ">=13.13.0"
