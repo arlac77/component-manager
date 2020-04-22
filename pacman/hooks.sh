@@ -1,8 +1,3 @@
-
-pre_install() {
-	useradd -U -l -M -r -s /usr/bin/nologin -d /var/lib/component-manager -c "manages components and its dependencies" component-manager
-}
-
 post_install() {
 	systemctl daemon-reload
 	systemctl enable component-manager
@@ -29,6 +24,4 @@ pre_remove() {
 
 post_remove() {
 	systemctl daemon-reload
-	userdel component-manager
-	groupdel component-manager
 }
