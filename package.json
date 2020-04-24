@@ -25,7 +25,7 @@
   "license": "BSD-2-Clause",
   "bin": {
     "component-manager": "src/component-manager-cli.mjs",
-    "component-manager-systemd": "bin/component-manager-systemd-cli.mjs"
+    "component-manager-systemd": "src/component-manager-systemd-cli.mjs"
   },
   "scripts": {
     "test": "ava --timeout 2m",
