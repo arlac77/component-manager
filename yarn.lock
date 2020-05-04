@@ -2758,10 +2758,10 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0, console-control-
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-content-entry@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/content-entry/-/content-entry-2.3.2.tgz#3cab63c83dfcb8bcd5a3b0a8a2c2ed6854ed08f5"
-  integrity sha512-VaMggUZRM2xz9WbUTp3iQ2M9t6LfSWmKUGNd5hNj/ehYRb7EyE1KluwVh2gzdDQZs4c8Kj2oiOR8b/aULW7R+A==
+content-entry@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/content-entry/-/content-entry-2.3.4.tgz#c8a62c112b839dcea902cf05530f528c8f50b8c4"
+  integrity sha512-EWKfXJeX7Ew+xqbkAjLTnuhm2p9BcybFbSAUd47ZIUpqp0YhHcCyu1DeX5kYAurCYiK5o0hJUUmZYzwlcVbSdg==
 
 continuable-cache@^0.3.1:
   version "0.3.1"
@@ -3917,19 +3917,19 @@ github-graphql-api@^1.0.6:
   resolved "https://registry.yarnpkg.com/github-graphql-api/-/github-graphql-api-1.0.6.tgz#43eb1423198975ee91fa0682bfe1a9452c8ba8e5"
   integrity sha512-Oe/+7WQup22g0aIv+S7YyIbXvOujfVl6I1t8+NFfwjfcEarDXWDOup3VplOiRs/ezDP+uB/WTEk7p4cVWAGXSQ==
 
-github-repository-provider@^7.0.9:
-  version "7.8.2"
-  resolved "https://registry.yarnpkg.com/github-repository-provider/-/github-repository-provider-7.8.2.tgz#b71d5d6d57b719784898fdd960100bf2d8f067ac"
-  integrity sha512-xV5S4XWk5qvqllEzduJOZIIt21/+a1LSCxPLyctOm3PwYvWsaV1sEfpNDdB1pM/0KZkdRbQtboYYQrsLmFEYrQ==
+github-repository-provider@^7.9.9:
+  version "7.9.9"
+  resolved "https://registry.yarnpkg.com/github-repository-provider/-/github-repository-provider-7.9.9.tgz#ac9c4e9ab2b632f24bd783afaa1342f30fa7837c"
+  integrity sha512-pcvSqkCn6cz+T3KIyW7WM6FaLKrAtjhnwRFHqff5bN8im1+7vJVqZF6zeq3sAcytTQ/qjvTrgMQe3dQrEQBJ8A==
   dependencies:
     "@octokit/plugin-throttling" "3.2.0"
     "@octokit/rest" "16.43.1"
-    content-entry "^2.3.2"
+    content-entry "^2.3.4"
     github-graphql-api "^1.0.6"
     micromatch "^4.0.2"
     node-fetch "^2.6.0"
     one-time-execution-method "^2.0.1"
-    repository-provider "^16.15.1"
+    repository-provider "^17.1.1"
 
 github-slugger@1.2.0:
   version "1.2.0"
@@ -7753,10 +7753,17 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-repository-provider@16.15.1, repository-provider@^16.15.1:
+repository-provider@16.15.1:
   version "16.15.1"
   resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-16.15.1.tgz#9b3890c83cc9c5da58524eba8d1604d599d1bbe0"
   integrity sha512-WoncXx5cZ0NCBkgkIVy47ZDOQSKFSFPpvWb+L1T2pWWFd3MX84n/kNJpMbI+diRMahp2lwadoWKxFVx5Ng58HQ==
+  dependencies:
+    loglevel-mixin "^5.0.3"
+
+repository-provider@^17.1.1:
+  version "17.1.1"
+  resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-17.1.1.tgz#d2552163ab2149015af17f56a08082a480554222"
+  integrity sha512-1fL398hCutX1lOK5vs1OLx9pSl7pw7xcw3m6MxLWjVHGvkPqABNgW1hA3jG5mgr+dBoeegHIKOnaVCJQ+czo7Q==
   dependencies:
     loglevel-mixin "^5.0.3"
 
