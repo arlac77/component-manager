@@ -2721,14 +2721,6 @@ config-expander@^11.0.13:
     expression-expander "^7.0.5"
     pratt-parser "^8.0.7"
 
-config-expander@^11.0.5:
-  version "11.0.12"
-  resolved "https://registry.yarnpkg.com/config-expander/-/config-expander-11.0.12.tgz#fcf2bac99f57c22cdfbfbaf5dc39e110b8a46500"
-  integrity sha512-1hHkg77J5B8PgoOB60sgAxynsJ17DP1TG9083s+FyGDyfcCKClQ2HsVGaCUn1PAdZdb2Ia+dDM8jfHgS93ak+Q==
-  dependencies:
-    expression-expander "^7.0.4"
-    pratt-parser "^8.0.4"
-
 configstore@^3.0.0:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/configstore/-/configstore-3.1.2.tgz#c6f25defaeef26df12dd33414b001fe81a543f8f"
@@ -3488,12 +3480,7 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-expression-expander@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/expression-expander/-/expression-expander-7.0.4.tgz#4e31684be639f7958788303ccbb1ce2d1905c6b7"
-  integrity sha512-T/ucHnkSrzxjeBjOcDzCgSUABUfUnmNpibb2Z/WU+x4MUtrTL6kQ1ye6onlhxUtro/cBWyO6yYDf7x+G7CO/fQ==
-
-expression-expander@^7.0.5:
+expression-expander@^7.0.4, expression-expander@^7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/expression-expander/-/expression-expander-7.0.5.tgz#111758a50be2a5527025edf4dd9f36a1a8207e0d"
   integrity sha512-SatxuPs/VtMkSoN/5ppJm9Tajkqq071Alh7HVptvPkTHzyhgUau6i4YDEA/aaREIJMHN47FVlxcmj4FngA0L4A==
@@ -7134,11 +7121,6 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
-
-pratt-parser@^8.0.4:
-  version "8.0.6"
-  resolved "https://registry.yarnpkg.com/pratt-parser/-/pratt-parser-8.0.6.tgz#9d78d2270128c7d5c8c6644f7a256243feacd753"
-  integrity sha512-aQhfKMgPlAY8caSYpJdD5wCdDHmzAQIbbM1FwkbqzjWH8RvJykbdgy1/Yv34jR02HAJWaFPfYIfHD8fP5lYd7Q==
 
 pratt-parser@^8.0.7:
   version "8.0.7"
