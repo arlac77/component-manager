@@ -2142,10 +2142,10 @@ bytes@1:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-1.0.0.tgz#3569ede8ba34315fab99c3e92cb04c7220de1fa8"
   integrity sha1-NWnt6Lo0MV+rmcPpLLBMciDeH6g=
 
-c8@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/c8/-/c8-7.1.0.tgz#3978192fd94b0349bffd0ffd12b87b3219386c38"
-  integrity sha512-r4ba14DehwROz7Sm/JpwqL+s2FGGMiVmgnhAtYJ/jQcPpR7L+yEO3MUoQXHOFBetqd+mpTY5XiNY79QY6bYpnw==
+c8@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/c8/-/c8-7.1.1.tgz#185b925f41bad6a8b0cd80e379a63001735b6332"
+  integrity sha512-j7pwGPf5JuY9RyUSmVFiXo2oVdOz+g5VbxDM5IS3zIzWrL908HJJ8PuqNiM6lHFFTzZcujroycTH1wR68lYRMQ==
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
     "@istanbuljs/schema" "^0.1.2"
@@ -2154,12 +2154,12 @@ c8@^7.1.0:
     furi "^2.0.0"
     istanbul-lib-coverage "^3.0.0"
     istanbul-lib-report "^3.0.0"
-    istanbul-reports "^3.0.0"
+    istanbul-reports "^3.0.2"
     rimraf "^3.0.0"
     test-exclude "^6.0.0"
     v8-to-istanbul "^4.1.2"
     yargs "^15.0.0"
-    yargs-parser "^16.0.0"
+    yargs-parser "^17.0.0"
 
 cacache@^12.0.0, cacache@^12.0.2, cacache@^12.0.3:
   version "12.0.4"
@@ -2750,10 +2750,10 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0, console-control-
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-content-entry@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/content-entry/-/content-entry-2.3.2.tgz#3cab63c83dfcb8bcd5a3b0a8a2c2ed6854ed08f5"
-  integrity sha512-VaMggUZRM2xz9WbUTp3iQ2M9t6LfSWmKUGNd5hNj/ehYRb7EyE1KluwVh2gzdDQZs4c8Kj2oiOR8b/aULW7R+A==
+content-entry@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/content-entry/-/content-entry-2.3.4.tgz#c8a62c112b839dcea902cf05530f528c8f50b8c4"
+  integrity sha512-EWKfXJeX7Ew+xqbkAjLTnuhm2p9BcybFbSAUd47ZIUpqp0YhHcCyu1DeX5kYAurCYiK5o0hJUUmZYzwlcVbSdg==
 
 continuable-cache@^0.3.1:
   version "0.3.1"
@@ -3904,19 +3904,19 @@ github-graphql-api@^1.0.6:
   resolved "https://registry.yarnpkg.com/github-graphql-api/-/github-graphql-api-1.0.6.tgz#43eb1423198975ee91fa0682bfe1a9452c8ba8e5"
   integrity sha512-Oe/+7WQup22g0aIv+S7YyIbXvOujfVl6I1t8+NFfwjfcEarDXWDOup3VplOiRs/ezDP+uB/WTEk7p4cVWAGXSQ==
 
-github-repository-provider@^7.0.9:
-  version "7.8.2"
-  resolved "https://registry.yarnpkg.com/github-repository-provider/-/github-repository-provider-7.8.2.tgz#b71d5d6d57b719784898fdd960100bf2d8f067ac"
-  integrity sha512-xV5S4XWk5qvqllEzduJOZIIt21/+a1LSCxPLyctOm3PwYvWsaV1sEfpNDdB1pM/0KZkdRbQtboYYQrsLmFEYrQ==
+github-repository-provider@^7.9.9:
+  version "7.9.9"
+  resolved "https://registry.yarnpkg.com/github-repository-provider/-/github-repository-provider-7.9.9.tgz#ac9c4e9ab2b632f24bd783afaa1342f30fa7837c"
+  integrity sha512-pcvSqkCn6cz+T3KIyW7WM6FaLKrAtjhnwRFHqff5bN8im1+7vJVqZF6zeq3sAcytTQ/qjvTrgMQe3dQrEQBJ8A==
   dependencies:
     "@octokit/plugin-throttling" "3.2.0"
     "@octokit/rest" "16.43.1"
-    content-entry "^2.3.2"
+    content-entry "^2.3.4"
     github-graphql-api "^1.0.6"
     micromatch "^4.0.2"
     node-fetch "^2.6.0"
     one-time-execution-method "^2.0.1"
-    repository-provider "^16.15.1"
+    repository-provider "^17.1.1"
 
 github-slugger@1.2.0:
   version "1.2.0"
@@ -4903,7 +4903,7 @@ istanbul-lib-report@^3.0.0:
     make-dir "^3.0.0"
     supports-color "^7.1.0"
 
-istanbul-reports@^3.0.0:
+istanbul-reports@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-3.0.2.tgz#d593210e5000683750cb09fc0644e4b6e27fd53b"
   integrity sha512-9tZvz7AiR3PEDNGiV9vIouQ/EAcqMXFmkcA1CDFTwOB98OZVDL0PH9glHotf5Ugp6GCOTypfzGWI/OqjWNCRUw==
@@ -7735,10 +7735,17 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-repository-provider@16.15.1, repository-provider@^16.15.1:
+repository-provider@16.15.1:
   version "16.15.1"
   resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-16.15.1.tgz#9b3890c83cc9c5da58524eba8d1604d599d1bbe0"
   integrity sha512-WoncXx5cZ0NCBkgkIVy47ZDOQSKFSFPpvWb+L1T2pWWFd3MX84n/kNJpMbI+diRMahp2lwadoWKxFVx5Ng58HQ==
+  dependencies:
+    loglevel-mixin "^5.0.3"
+
+repository-provider@^17.1.1:
+  version "17.1.1"
+  resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-17.1.1.tgz#d2552163ab2149015af17f56a08082a480554222"
+  integrity sha512-1fL398hCutX1lOK5vs1OLx9pSl7pw7xcw3m6MxLWjVHGvkPqABNgW1hA3jG5mgr+dBoeegHIKOnaVCJQ+czo7Q==
   dependencies:
     loglevel-mixin "^5.0.3"
 
@@ -7873,10 +7880,10 @@ rimraf@^3.0.0, rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rollup@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.6.1.tgz#8354e67caa7b8bf24c2488d9e2f64da2be62eebe"
-  integrity sha512-1RhFDRJeg027YjBO6+JxmVWkEZY0ASztHhoEUEWxOwkh4mjO58TFD6Uo7T7Y3FbmDpRTfKhM5NVxJyimCn0Elg==
+rollup@^2.7.6:
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.7.6.tgz#8e6682e64ca65eb33b896dcce902696f0415ce1a"
+  integrity sha512-AdHosxHBKyBsdtbT1/AqbWNQ87O4SSxS4N9iMwEpoCDAT6e4Du3uJSy83mp3ckgmCxly5VeXGx0WHsm21Djytg==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -9518,10 +9525,10 @@ yargs-parser@^11.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^16.0.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-16.1.0.tgz#73747d53ae187e7b8dbe333f95714c76ea00ecf1"
-  integrity sha512-H/V41UNZQPkUMIT5h5hiwg4QKIY1RPvoBV4XcjUbRM8Bk2oKqqyZ0DIEbTFZB0XjbtSPG8SAa/0DxCQmiRgzKg==
+yargs-parser@^17.0.0:
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-17.1.0.tgz#b95ff3201e98b89e86070f92bef636016a0b0766"
+  integrity sha512-67zLl4/kWtp9eyVuxX+fHZ2Ey4ySWh0awDJlk/EtT0vzspsXbzrFsh76WjYSP3L++zhSwHQRUE3MCBe754RuEg==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
