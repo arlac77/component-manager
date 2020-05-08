@@ -6341,10 +6341,10 @@ npm-pick-manifest@^6.0.0:
     npm-package-arg "^8.0.0"
     semver "^7.0.0"
 
-npm-pkgbuild@^6.11.18:
-  version "6.11.18"
-  resolved "https://registry.yarnpkg.com/npm-pkgbuild/-/npm-pkgbuild-6.11.18.tgz#0badd80cf3dd738f9ef414b609436016abd41a22"
-  integrity sha512-KRbSwForyqcrZwkqHZkDZAwyvJ+VKywMNf3j5y/kBgWboDPMPELFME9GZ7Xsc/WiZJGooTtts+5csAzJjgpSEQ==
+npm-pkgbuild@^6.11.19:
+  version "6.11.19"
+  resolved "https://registry.yarnpkg.com/npm-pkgbuild/-/npm-pkgbuild-6.11.19.tgz#b5c41b825d9f9ad6d6044fe20004487408c86e7b"
+  integrity sha512-hDFS2x9B0fpryI/W61fqgRQGERL84MzIuSDWyOZFz49Eg8vzW6fQNPpFIusm9c44HPep2iNqb2qKSigRGuYU3A==
   dependencies:
     commander "^5.0.0"
     execa "^4.0.0"
@@ -7734,20 +7734,6 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
-
-repository-provider@16.15.1:
-  version "16.15.1"
-  resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-16.15.1.tgz#9b3890c83cc9c5da58524eba8d1604d599d1bbe0"
-  integrity sha512-WoncXx5cZ0NCBkgkIVy47ZDOQSKFSFPpvWb+L1T2pWWFd3MX84n/kNJpMbI+diRMahp2lwadoWKxFVx5Ng58HQ==
-  dependencies:
-    loglevel-mixin "^5.0.3"
-
-repository-provider@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-18.0.0.tgz#294482d3dde67461bf98163e6cce5aef4f2287d3"
-  integrity sha512-s1IDeJKmPh7223MWh0DhsEvKi0uykkTXTc72EZDQ37mDzxwpWLjunSoOHZ4+odauxAPew69ld3+EybE0YDJbbg==
-  dependencies:
-    loglevel-mixin "^5.0.3"
 
 repository-provider@^18.0.0:
   version "18.0.0"
