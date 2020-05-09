@@ -1061,35 +1061,35 @@
   dependencies:
     model-attributes "^4.1.3"
 
-"@kronos-integration/service-admin@^3.0.22":
-  version "3.0.22"
-  resolved "https://registry.yarnpkg.com/@kronos-integration/service-admin/-/service-admin-3.0.22.tgz#428dd454fabeba43890d8b7c0bd916432cdb8710"
-  integrity sha512-jq1iFy5W/m2pqapSrVZlGWdve7CwoiW2gTG3IdO6/8sNG8B3wmBcV7CiPL6c8R+ZarvgHWNjW8VUtzNSolmBYg==
+"@kronos-integration/service-admin@^3.0.23":
+  version "3.0.23"
+  resolved "https://registry.yarnpkg.com/@kronos-integration/service-admin/-/service-admin-3.0.23.tgz#f5af3b003de1b657cd7249d88d52a6dccee00234"
+  integrity sha512-eQ9YaBb7MitBRc/x/tOuTYJINlc9cqjESkkiIXC+s/nbCnto8Q9CFjPFLyH+fN/1m2yAkHkY6lDjb/K4okDNBA==
   dependencies:
-    "@kronos-integration/service" "^8.3.26"
+    "@kronos-integration/service" "^8.3.27"
 
-"@kronos-integration/service-authenticator@^1.0.24":
-  version "1.0.24"
-  resolved "https://registry.yarnpkg.com/@kronos-integration/service-authenticator/-/service-authenticator-1.0.24.tgz#3c17b9556b42b66ac0a82d7f3382a33ba496bc20"
-  integrity sha512-jeD9AeIgy4B0i3nugd8N49h6oNcbjQHCO4Y3rf6Qi7kb/9b1HJMqPeMWTPU8pWPctXQEHdAbXcQ1+/1SDPJvoA==
+"@kronos-integration/service-authenticator@^1.0.25":
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/@kronos-integration/service-authenticator/-/service-authenticator-1.0.25.tgz#30d52848f554b59cda0d7cc08f9840c6771d36ee"
+  integrity sha512-/OipxNiWx8yWGaBrwuvvo4w/agmZmD1wcpnvb4EkJ8WS3qIRp3Uv3AvKcxaSVAbI2a+d6BAJVgFCQoF68Z4JJg==
   dependencies:
-    "@kronos-integration/service" "^8.3.26"
+    "@kronos-integration/service" "^8.3.27"
     jsonwebtoken "^8.5.1"
 
-"@kronos-integration/service-health-check@^5.0.22":
-  version "5.0.22"
-  resolved "https://registry.yarnpkg.com/@kronos-integration/service-health-check/-/service-health-check-5.0.22.tgz#a9fc51ae3828fd4ad2772858f6cb47f4c73cb405"
-  integrity sha512-dCy8iXCheSXD3au+a/78Um1cA5+q2tehVzUzCM6zZSKqB66tXN0bI/LLHzswB6G7Uwg7Wb6B0guvNwTnYhO86Q==
+"@kronos-integration/service-health-check@^5.0.23":
+  version "5.0.23"
+  resolved "https://registry.yarnpkg.com/@kronos-integration/service-health-check/-/service-health-check-5.0.23.tgz#d5155baab3f48ff88248db3f8adcf7493d2063b1"
+  integrity sha512-U/r5tmQwc9wA2g+bwifD8v2ZMiDisSgpj2tySLdZ8wJu3nm5kiEiHDGCgeAyLsbCIv9xjKRB/4Ywgib7vVZv5w==
   dependencies:
-    "@kronos-integration/service" "^8.3.25"
+    "@kronos-integration/service" "^8.3.27"
     model-attributes "^4.1.6"
 
-"@kronos-integration/service-http@^10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@kronos-integration/service-http/-/service-http-10.1.2.tgz#1a2e97dfff3ed63864d6de3a0f2c66bf610c2509"
-  integrity sha512-6SXiPUZvSUC/V5bPJTx1t5VcEZ023tPLHnYzm7HxoftIE1Ezkn3Ee2k2hU/uL5DLuYRL7eWokYnKLp40OC9ThA==
+"@kronos-integration/service-http@^10.1.3":
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/@kronos-integration/service-http/-/service-http-10.1.3.tgz#ad53886768300d9ef0d2e15834a73a59d1e63360"
+  integrity sha512-FIzu0QHxiPoy2BD8lnB6JmwhFfj/RSSl9q295CiuhORQt5u7weuTH+zzdpi5YRQyCUzTqDU/OAx3kuU2EJeIXw==
   dependencies:
-    "@kronos-integration/service" "^8.3.26"
+    "@kronos-integration/service" "^8.3.27"
     bufferutil "^4.0.1"
     jsonwebtoken "^8.5.1"
     model-attributes "^4.1.6"
@@ -1113,10 +1113,10 @@
     "@kronos-integration/service" "^8.3.26"
     config-expander "^11.0.13"
 
-"@kronos-integration/service@^8.3.25", "@kronos-integration/service@^8.3.26":
-  version "8.3.26"
-  resolved "https://registry.yarnpkg.com/@kronos-integration/service/-/service-8.3.26.tgz#a68c9de967418398638a13a7716022b0edc087ec"
-  integrity sha512-JOFrzh9FHZBLx+SDtzLJAcn5ClBIys7+Q/dHCGb1Hi06IKkPePsJHKTcBvh0IW5u6TeqBeSUDqKcj8Vnrwqvfg==
+"@kronos-integration/service@^8.3.26", "@kronos-integration/service@^8.3.27":
+  version "8.3.27"
+  resolved "https://registry.yarnpkg.com/@kronos-integration/service/-/service-8.3.27.tgz#97f184aa6f2d1df392f802a37da812b8ea8ef41a"
+  integrity sha512-ORVLBM/bLTV/Bb6TQm3GcNoigHpPboamcYMp9GAcFzC0z40cj0WAX609jwNoDFHtlyiTkdanFeu9cmAZzn4Tkw==
   dependencies:
     "@kronos-integration/endpoint" "^8.0.1"
     loglevel-mixin "^5.0.6"
