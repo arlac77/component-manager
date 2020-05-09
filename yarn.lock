@@ -3904,10 +3904,10 @@ github-graphql-api@^1.0.6:
   resolved "https://registry.yarnpkg.com/github-graphql-api/-/github-graphql-api-1.0.6.tgz#43eb1423198975ee91fa0682bfe1a9452c8ba8e5"
   integrity sha512-Oe/+7WQup22g0aIv+S7YyIbXvOujfVl6I1t8+NFfwjfcEarDXWDOup3VplOiRs/ezDP+uB/WTEk7p4cVWAGXSQ==
 
-github-repository-provider@^7.9.11:
-  version "7.9.11"
-  resolved "https://registry.yarnpkg.com/github-repository-provider/-/github-repository-provider-7.9.11.tgz#b5e0c0640e664b254e2ca369953cc977a457e8ba"
-  integrity sha512-xBgkZ4Nr0F8yoWN1pls7HqcVQ7SLpDy9CjKOR4YdkwSWpPom/ol/liKVG424jo4N1Z/vWBGHkZNyMB8vcR2V5A==
+github-repository-provider@^7.9.13:
+  version "7.9.13"
+  resolved "https://registry.yarnpkg.com/github-repository-provider/-/github-repository-provider-7.9.13.tgz#821019adefe91af3bd1c1e900d768d287f742cff"
+  integrity sha512-KYcRvZuzV5N+5ofQGy8q1tkEMrHLZBgdZOJ9xExZCGSTbE0C2x6cSzhvgWkW/X1rQSKZGWc3BoVmrziRuAEozQ==
   dependencies:
     "@octokit/plugin-throttling" "3.2.0"
     "@octokit/rest" "16.43.1"
@@ -3916,7 +3916,7 @@ github-repository-provider@^7.9.11:
     micromatch "^4.0.2"
     node-fetch "^2.6.0"
     one-time-execution-method "^2.0.1"
-    repository-provider "^18.0.0"
+    repository-provider "^18.1.0"
 
 github-slugger@1.2.0:
   version "1.2.0"
@@ -7735,10 +7735,10 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-repository-provider@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-18.0.0.tgz#294482d3dde67461bf98163e6cce5aef4f2287d3"
-  integrity sha512-s1IDeJKmPh7223MWh0DhsEvKi0uykkTXTc72EZDQ37mDzxwpWLjunSoOHZ4+odauxAPew69ld3+EybE0YDJbbg==
+repository-provider@^18.0.0, repository-provider@^18.1.0:
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/repository-provider/-/repository-provider-18.1.0.tgz#9d1cc9b7d0fc4eabcb702e13d6c271920ffd9c00"
+  integrity sha512-pkEThv6rICGyjQGm8MklmSgUGpN0x+HZNtV9XDAiHUZCvbt6bQpbFPpaI6m+IePIF4nO8o0uy+lLdd1zzo8BWQ==
   dependencies:
     loglevel-mixin "^5.0.3"
 
