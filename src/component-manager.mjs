@@ -1,11 +1,14 @@
 import pacote from "pacote";
-import { GithubProvider } from "github-repository-provider";
-import { AggregationProvider } from "aggregation-repository-provider";
+import GithubProvider from "github-repository-provider";
+import AggregationProvider from "aggregation-repository-provider";
 
 export default async function setup(sp) {
-  const rp = new AggregationProvider([
-    new GithubProvider(GithubProvider.optionsFromEnvironment(process.env))
-  ]);
+  const rp = AggregationProvider.initialize([
+    GithubProvider
+  ],
+  undefined,
+process.env
+);
 
   const rg = await rp.repositoryGroup("arlac77");
   console.log(rg.name);

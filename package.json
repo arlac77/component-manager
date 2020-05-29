@@ -4,13 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "bin",
-    "bin/component-manager-systemd",
-    "bin/component-manager-systemd"
-  ],
-  "main": "dist/component-manager.js",
-  "module": "src/component-manager.mjs",
+  "main": "./src/component-manager.mjs",
   "description": "manages components and its dependencies",
   "keywords": [
     "kronos-integration",
