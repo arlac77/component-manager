@@ -11,6 +11,7 @@ Environment="LOGLEVEL=trace"
 RestartSec=10
 TimeoutStartSec=20
 TimeoutStopSec=25
+Restart=on-failure
 NotifyAccess=all
 FileDescriptorStoreMax=5
 OOMPolicy=stop
