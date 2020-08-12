@@ -7,7 +7,7 @@ Wants=network-online.target
 Type=notify
 ExecStart=/usr/bin/node --title {{name}} {{installdir}}/src/{{name}}-cli.mjs
 ExecReload=/bin/kill -HUP $MAINPID
-Environment="LOGLEVEL=trace"
+Environment=LOGLEVEL=trace
 RestartSec=10
 TimeoutStartSec=20
 TimeoutStopSec=25
