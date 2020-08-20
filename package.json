@@ -30,7 +30,7 @@
     "@kronos-integration/service-admin": "^3.1.16",
     "@kronos-integration/service-authenticator": "^1.1.8",
     "@kronos-integration/service-health-check": "^5.0.42",
-    "@kronos-integration/service-http": "^10.1.28",
+    "@kronos-integration/service-http": "^10.2.0",
     "@kronos-integration/service-ldap": "^2.1.46",
     "aggregation-repository-provider": "^2.6.61",
     "config-expander": "^11.0.13",
@@ -44,7 +44,7 @@
     "ava": "^3.11.1",
     "c8": "^7.1.2",
     "documentation": "^13.0.0",
-    "npm-pkgbuild": "^6.12.5",
+    "npm-pkgbuild": "^6.12.6",
     "semantic-release": "^17.1.1"
   },
   "optionalDependencies": {
@@ -104,7 +104,7 @@
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",     
+      "@semantic-release/release-notes-generator",
       [
         "@semantic-release/exec",
         {
