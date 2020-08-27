@@ -8,7 +8,7 @@ StopWhenUnneeded=true
 Type=notify
 ExecStart=/usr/bin/node --unhandled-rejections=strict --trace-uncaught --trace-warnings --title {{name}} {{installdir}}/src/{{name}}-cli.mjs
 ExecReload=/bin/kill -HUP $MAINPID
-RestartSec=40
+RestartSec=10
 TimeoutStartSec=25
 TimeoutStopSec=25
 Restart=on-failure
@@ -25,7 +25,7 @@ RuntimeDirectory={{name}}/http
 StateDirectory={{name}}
 CacheDirectory={{name}}
 ConfigurationDirectory={{name}}
-RuntimeDirectoryMode=755
+RuntimeDirectoryMode=775
 RuntimeDirectoryPreserve=yes
 PrivateTmp=true
 PrivateDevices=true
@@ -38,11 +38,11 @@ ProtectKernelLogs=true
 ProtectControlGroups=true
 LockPersonality=true
 RestrictSUIDSGID=true
-CPUWeight=10
-IOWeight=10
+CPUWeight=50
+IOWeight=50
 MemoryAccounting=true
-MemoryHigh=40M
-MemoryMax=70M
+MemoryHigh=150M
+MemoryMax=200M
 SystemCallErrorNumber=EPERM
 
 [Install]
