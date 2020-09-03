@@ -57,22 +57,15 @@
     "linux",
     "darwin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arlac77/component-manager.git"
+  },
   "cpu": [
     "arm",
     "arm64",
     "x64"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arlac77/component-manager.git"
-  },
-  "bugs": {
-    "url": "https://github.com/arlac77/component-manager/issues"
-  },
-  "homepage": "https://github.com/arlac77/component-manager#readme",
-  "config": {
-    "socket": "/run/${name}/http/socket"
-  },
   "pacman": {
     "arch": [
       "aarch64",
@@ -100,6 +93,13 @@
         }
       }
     }
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/component-manager/issues"
+  },
+  "homepage": "https://github.com/arlac77/component-manager#readme",
+  "config": {
+    "socket": "/run/${name}/http/socket"
   },
   "release": {
     "plugins": [
