@@ -3,6 +3,5 @@
 [![minified size](https://badgen.net/bundlephobia/min/component-manager)](https://bundlephobia.com/result?p=component-manager)
 [![downloads](http://img.shields.io/npm/dm/component-manager.svg?style=flat-square)](https://npmjs.org/package/component-manager)
 [![GitHub Issues](https://img.shields.io/github/issues/arlac77/component-manager.svg?style=flat-square)](https://github.com/arlac77/component-manager/issues)
+[![Build Status](https://travis-ci.com/arlac77/component-manager.svg?branch=master)](https://travis-ci.com/arlac77/component-manager)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/arlac77/component-manager.git)
-[![Build Action Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Farlac77%2Fcomponent-manager%2Fbadge&style=flat)](https://actions-badge.atrox.dev/arlac77/component-manager/goto)
-[![Coverage Status](https://coveralls.io/repos/arlac77/component-manager/badge.svg)](https://coveralls.io/r/arlac77/component-manager)
