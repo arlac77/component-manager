@@ -35,7 +35,7 @@
     "@kronos-integration/service-ldap": "^2.4.0",
     "aggregation-repository-provider": "^2.9.12",
     "config-expander": "^12.0.1",
-    "github-repository-provider": "^7.20.14",
+    "github-repository-provider": "^7.20.15",
     "pacote": "^11.1.9"
   },
   "devDependencies": {
