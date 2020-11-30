@@ -7,6 +7,7 @@
   "main": "./src/component-manager.mjs",
   "description": "manages components and its dependencies",
   "keywords": [
+    "cluster",
     "kronos-integration",
     "systemd"
   ],
@@ -18,12 +19,13 @@
   ],
   "license": "BSD-2-Clause",
   "bin": {
+    "cluster-node": "./src/cluster-node-cli.mjs",
     "component-manager": "./src/component-manager-cli.mjs"
   },
   "scripts": {
     "test": "npm run test:ava",
     "test:ava": "ava --timeout 2m tests/*.mjs",
-    "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp"
+    "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp && c8 -x 'tests/**/*' --temp-directory build/tmp ava --node-arguments '--experimental-modules' --timeout 2m"
   },
   "dependencies": {
     "@kronos-integration/interceptor-decode-json": "^2.1.31",
@@ -33,6 +35,7 @@
     "@kronos-integration/service-health-check": "^5.0.67",
     "@kronos-integration/service-http": "^10.4.5",
     "@kronos-integration/service-ldap": "^3.0.5",
+    "@kronos-integration/service-swarm": "^1.6.13",
     "aggregation-repository-provider": "^2.9.12",
     "config-expander": "^12.0.1",
     "github-repository-provider": "^7.20.16",
@@ -74,6 +77,11 @@
   "config": {
     "socket": "/run/${name}/http/socket"
   },
+  "systemd": {
+    "units": {
+      "${name}": "systemd/${name}*"
+    }
+  },
   "pacman": {
     "arch": [
       "aarch64",
@@ -100,7 +108,8 @@
           "${name}": "systemd/${name}*"
         }
       }
-    }
+    },
+    "install": "pacman/install.sh"
   },
   "release": {
     "plugins": [
