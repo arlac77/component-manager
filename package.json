@@ -39,9 +39,9 @@
     "pacote": "^11.1.9"
   },
   "devDependencies": {
-    "@semantic-release/commit-analyzer": "^9.0.0",
+    "@semantic-release/commit-analyzer": "^9.0.1",
     "@semantic-release/exec": "^5.0.0",
-    "@semantic-release/release-notes-generator": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.2",
     "ava": "^3.15.0",
     "c8": "^7.1.2",
     "npm-pkgbuild": "^6.12.52",
