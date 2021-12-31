@@ -32,10 +32,10 @@
     "@kronos-integration/service-authenticator": "^1.6.2",
     "@kronos-integration/service-health": "^5.0.129",
     "@kronos-integration/service-http": "^10.6.83",
-    "@kronos-integration/service-ldap": "^4.0.66",
+    "@kronos-integration/service-ldap": "^4.0.67",
     "@kronos-integration/service-repositories": "^2.0.92",
     "config-expander": "^12.0.1",
-    "github-repository-provider": "^7.24.10",
+    "github-repository-provider": "^7.25.2",
     "pacote": "^12.0.0"
   },
   "devDependencies": {
