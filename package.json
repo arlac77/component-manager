@@ -44,7 +44,7 @@
     "@semantic-release/release-notes-generator": "^10.0.2",
     "ava": "^3.15.0",
     "c8": "^7.1.2",
-    "npm-pkgbuild": "^6.12.80",
+    "npm-pkgbuild": "^6.12.83",
     "semantic-release": "^18.0.1"
   },
   "optionalDependencies": {
@@ -87,7 +87,7 @@
       "/etc/nginx/sites/common/${name}.conf": "pacman/nginx.conf"
     },
     "depends": {
-      "systemd": ">=249.7",
+      "systemd": ">=250",
       "nginx-mainline": ">=1.21.1"
     },
     "hooks": "pacman/hooks.sh",
