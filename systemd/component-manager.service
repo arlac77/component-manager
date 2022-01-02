@@ -19,6 +19,7 @@ User={{name}}
 Group={{name}}
 SupplementaryGroups=http
 NoNewPrivileges=true
+UMask=0077
 ProtectSystem=full
 ProtectHome=true
 RuntimeDirectory={{name}}/http
