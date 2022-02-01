@@ -51,7 +51,7 @@
     "@kronos-integration/service-systemd": "^2.5.3"
   },
   "engines": {
-    "node": ">=14.18.3"
+    "node": ">=16.13.2"
   },
   "os": [
     "linux"
@@ -79,7 +79,14 @@
       "/etc/${name}/config.json": "config/config.json",
       "/usr/lib/sysusers.d/${name}.conf": "pkg/sysusers.conf",
       "/etc/nginx/sites/common/${name}.conf": "pkg/nginx.conf",
-      "${installdir}/": [{"type": "npm-pack"},{"type": "node-modules"}]
+      "${installdir}/": [
+        {
+          "type": "npm-pack"
+        },
+        {
+          "type": "node-modules"
+        }
+      ]
     },
     "depends": {
       "systemd": ">=250.3",
@@ -109,7 +116,7 @@
   "template": {
     "inheritFrom": [
       "arlac77/template-arlac77-github",
-      "arlac77/template-kronos-app#next"
+      "arlac77/template-kronos-app"
     ]
   }
 }
