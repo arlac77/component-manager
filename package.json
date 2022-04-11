@@ -84,17 +84,17 @@
       "${tmpfiles.config.dir}${name}.conf": "pkg/tmpfiles.conf",
       "${config.dir}config.json": "config/config.json",
       "${nginx.sites.dir}${name}.conf": "pkg/nginx.conf",
-      "${systemd.config.dir}${name}.service": "pkg/${name}.service",
-      "${systemd.config.dir}${name}.socket": "pkg/${name}.socket"
+      "${systemd.unit.dir}${name}.service": "pkg/${name}.service",
+      "${systemd.unit.dir}${name}.socket": "pkg/${name}.socket"
     },
     "hooks": "pkg/hooks.sh",
     "backup": "${config.dir}config.json",
     "groups": "services",
-    "http.base.path": "/services/${name}/api",
     "depends": {
       "systemd": ">=250.4",
       "nginx-mainline": ">=1.21.4"
-    }
+    },
+    "http.base.path": "/services/${name}/api"
   },
   "release": {
     "plugins": [
