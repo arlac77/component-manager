@@ -70,9 +70,6 @@
     "url": "https://github.com/arlac77/component-manager/issues"
   },
   "homepage": "https://github.com/arlac77/component-manager#readme",
-  "config": {
-    "socket": "/run/${name}/http/socket"
-  },
   "pkg": {
     "content": {
       "${install.dir}": [
@@ -83,9 +80,6 @@
           "type": "node-modules"
         }
       ],
-      "${systemd.unit.dir}": {
-        "base": "systemd"
-      },
       "${sysusers.config.dir}${name}.conf": "pkg/sysusers.conf",
       "${tmpfiles.config.dir}${name}.conf": "pkg/tmpfiles.conf",
       "${config.dir}config.json": "config/config.json",
@@ -96,6 +90,7 @@
     "hooks": "pkg/hooks.sh",
     "backup": "${config.dir}config.json",
     "groups": "services",
+    "http.base.path": "/services/${name}/api",
     "depends": {
       "systemd": ">=250.4",
       "nginx-mainline": ">=1.21.4"
