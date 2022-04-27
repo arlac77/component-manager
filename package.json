@@ -70,7 +70,7 @@
     "url": "https://github.com/arlac77/component-manager/issues"
   },
   "homepage": "https://github.com/arlac77/component-manager#readme",
-  "pkg": {
+  "pkgbuild": {
     "content": {
       "${install.dir}": [
         {
