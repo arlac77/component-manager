@@ -26,16 +26,16 @@
     "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp"
   },
   "dependencies": {
-    "@kronos-integration/interceptor-decode-json": "^2.1.63",
-    "@kronos-integration/service": "^10.4.21",
-    "@kronos-integration/service-admin": "^3.4.57",
-    "@kronos-integration/service-authenticator": "^1.6.23",
-    "@kronos-integration/service-health": "^5.0.150",
-    "@kronos-integration/service-http": "^10.6.112",
-    "@kronos-integration/service-ldap": "^4.0.85",
-    "@kronos-integration/service-repositories": "^2.0.114",
+    "@kronos-integration/interceptor-decode-json": "^2.1.64",
+    "@kronos-integration/service": "^10.4.22",
+    "@kronos-integration/service-admin": "^3.4.58",
+    "@kronos-integration/service-authenticator": "^1.6.25",
+    "@kronos-integration/service-health": "^5.0.151",
+    "@kronos-integration/service-http": "^10.6.114",
+    "@kronos-integration/service-ldap": "^4.0.86",
+    "@kronos-integration/service-repositories": "^2.0.115",
     "config-expander": "^12.0.12",
-    "github-repository-provider": "^7.30.3",
+    "github-repository-provider": "^7.30.4",
     "pacote": "^13.6.0"
   },
   "devDependencies": {
