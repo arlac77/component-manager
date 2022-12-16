@@ -32,11 +32,11 @@
     "@kronos-integration/service-authenticator": "^1.6.46",
     "@kronos-integration/service-health": "^5.0.173",
     "@kronos-integration/service-http": "^10.6.140",
-    "@kronos-integration/service-ldap": "^4.0.104",
+    "@kronos-integration/service-ldap": "^4.0.105",
     "@kronos-integration/service-repositories": "^2.0.140",
     "config-expander": "^13.0.2",
     "github-repository-provider": "^7.33.11",
-    "pacote": "^15.0.6"
+    "pacote": "^15.0.8"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
