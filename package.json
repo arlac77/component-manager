@@ -64,7 +64,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/arlac77/component-manager.git"
+    "url": "https://github.com/arlac77/component-manager"
   },
   "bugs": {
     "url": "https://github.com/arlac77/component-manager/issues"
