@@ -85,7 +85,7 @@
       "${systemd.unit.dir}${name}.service": "pkg/${name}.service"
     },
     "http.base.path": "/services/${name}/api",
-    "kronos": true,
+    "kronos": true
   },
   "release": {
     "plugins": [
