@@ -36,7 +36,7 @@
     "@kronos-integration/service-repositories": "^2.0.153",
     "config-expander": "^13.0.8",
     "github-repository-provider": "^8.0.22",
-    "pacote": "^15.2.0"
+    "pacote": "^16.0.0"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^10.0.1",
