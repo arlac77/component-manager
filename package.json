@@ -2,7 +2,8 @@
   "name": "component-manager",
   "version": "0.0.0-semantic-release",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "main": "./src/component-manager.mjs",
   "description": "manages components and its dependencies",
