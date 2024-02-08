@@ -19,7 +19,7 @@
   ],
   "license": "BSD-2-Clause",
   "bin": {
-    "component-manager": "./src/component-manager-cli.mjs"
+    "component-manager": "src/component-manager-cli.mjs"
   },
   "scripts": {
     "test": "npm run test:ava",
