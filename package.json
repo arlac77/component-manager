@@ -57,7 +57,8 @@
     "node": ">=22.2.0"
   },
   "os": [
-    "linux"
+    "linux",
+    "darwin"
   ],
   "cpu": [
     "arm",
