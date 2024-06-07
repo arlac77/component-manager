@@ -34,7 +34,7 @@
     "@kronos-integration/service-health": "^5.0.180",
     "@kronos-integration/service-http": "^10.7.2",
     "@kronos-integration/service-ldap": "^4.0.137",
-    "@kronos-integration/service-repositories": "^2.0.165",
+    "@kronos-integration/service-repositories": "^2.0.166",
     "config-expander": "^14.0.4",
     "github-repository-provider": "^9.0.17",
     "pacote": "^18.0.6"
