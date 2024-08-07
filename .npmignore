@@ -4,7 +4,10 @@ doc
 *.log
 *.tmp
 .vscode
+deploy
 .github
 pkg
 config
 dist
+update.sh
+service.json
