@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@kronos-integration/interceptor-decode-json": "^3.0.10",
-    "@kronos-integration/service": "^13.1.14",
+    "@kronos-integration/service": "^13.1.15",
     "@kronos-integration/service-admin": "^3.4.84",
     "@kronos-integration/service-authenticator": "^3.0.4",
     "@kronos-integration/service-health": "^7.0.6",
@@ -36,7 +36,7 @@
     "@kronos-integration/service-ldap": "^5.0.4",
     "@kronos-integration/service-repositories": "^4.0.8",
     "config-expander": "^14.0.9",
-    "github-repository-provider": "^9.2.28",
+    "github-repository-provider": "^9.2.29",
     "pacote": "^21.0.0"
   },
   "devDependencies": {
