@@ -28,15 +28,15 @@
   },
   "dependencies": {
     "@kronos-integration/interceptor-decode-json": "^3.0.22",
-    "@kronos-integration/service": "^13.2.38",
+    "@kronos-integration/service": "^13.2.39",
     "@kronos-integration/service-admin": "^3.4.94",
     "@kronos-integration/service-authenticator": "^3.0.21",
-    "@kronos-integration/service-health": "^7.0.40",
-    "@kronos-integration/service-http": "^13.0.41",
-    "@kronos-integration/service-ldap": "^5.0.28",
-    "@kronos-integration/service-repositories": "^4.0.46",
+    "@kronos-integration/service-health": "^7.0.41",
+    "@kronos-integration/service-http": "^13.0.42",
+    "@kronos-integration/service-ldap": "^5.0.29",
+    "@kronos-integration/service-repositories": "^4.0.47",
     "config-expander": "^14.0.9",
-    "github-repository-provider": "^9.3.4",
+    "github-repository-provider": "^9.3.5",
     "pacote": "^21.0.3"
   },
   "devDependencies": {
@@ -46,7 +46,7 @@
     "@semantic-release/release-notes-generator": "^14.0.1",
     "ava": "^6.1.3",
     "c8": "^10.1.2",
-    "npm-pkgbuild": "^18.3.9",
+    "npm-pkgbuild": "^18.3.10",
     "semantic-release": "^24.2.9"
   },
   "optionalDependencies": {
