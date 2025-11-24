@@ -33,10 +33,10 @@
     "@kronos-integration/service-authenticator": "^4.0.0",
     "@kronos-integration/service-health": "^8.0.0",
     "@kronos-integration/service-http": "^14.0.0",
-    "@kronos-integration/service-ldap": "^6.0.2",
+    "@kronos-integration/service-ldap": "^6.0.3",
     "@kronos-integration/service-repositories": "^4.0.50",
     "config-expander": "^14.0.9",
-    "github-repository-provider": "^9.3.11",
+    "github-repository-provider": "^9.3.12",
     "pacote": "^21.0.4"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
   },
   "optionalDependencies": {
     "@kronos-integration/service-systemd": "^4.0.0",
-    "mf-hosting": "^2.9.3"
+    "mf-hosting": "^2.9.4"
   },
   "engines": {
     "node": ">=22.12.0"
