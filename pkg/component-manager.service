@@ -8,6 +8,7 @@ StopWhenUnneeded=true
 Type=notify
 ExecStart=/usr/bin/node --unhandled-rejections=strict --trace-uncaught --trace-warnings --title {{name}} {{install.dir}}src/{{name}}-cli.mjs
 ExecReload=/bin/kill -HUP $MAINPID
+EnvironmentFile=-/etc/conf.d/{{name}}
 RestartSec=40
 TimeoutStartSec=25
 TimeoutStopSec=25
@@ -44,7 +45,6 @@ LockPersonality=true
 RestrictRealtime=true
 RestrictSUIDSGID=true
 CPUWeight=10
-EnvironmentFile=-/etc/conf.d/{{name}}
 IOWeight=10
 MemoryAccounting=true
 MemoryHigh=40M
