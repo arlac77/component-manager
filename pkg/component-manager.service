@@ -6,7 +6,7 @@ StopWhenUnneeded=true
 
 [Service]
 Type=notify
-ExecStart=/usr/bin/node --unhandled-rejections=strict --trace-uncaught --trace-warnings --title {{name}} {{install.dir}}src/{{name}}-cli.mjs
+ExecStart=/usr/bin/node --unhandled-rejections=strict --trace-uncaught --trace-warnings --title {{name}} {{install_dir}}src/{{name}}-cli.mjs
 ExecReload=/bin/kill -HUP $MAINPID
 EnvironmentFile=-/etc/conf.d/{{name}}
 RestartSec=40
@@ -16,8 +16,8 @@ Restart=on-failure
 NotifyAccess=all
 FileDescriptorStoreMax=5
 OOMPolicy=stop
-User={{os.user}}
-Group={{os.group}}
+User={{os_user}}
+Group={{os_group}}
 DynamicUser=true
 SupplementaryGroups=http
 CapabilityBoundingSet=~CAP_SYS_BOOT

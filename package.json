@@ -55,7 +55,7 @@
     "mf-hosting": "^3.0.1"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=24.13.0"
   },
   "os": [
     "linux",
@@ -76,7 +76,7 @@
   "homepage": "https://github.com/arlac77/component-manager#readme",
   "pkgbuild": {
     "content": {
-      "${install.dir}": [
+      "${install_dir}": [
         {
           "type": "npm-pack"
         },
@@ -84,12 +84,11 @@
           "type": "node-modules"
         }
       ],
-      "${config.dir}config.json": "config/config.json",
-      "${nginx.sites.dir}${name}.conf": "pkg/nginx.conf",
-      "${systemd.unit.dir}${name}.service": "pkg/${name}.service",
-      "kronos": true
+      "${config_dir}config.json": "config/config.json",
+      "${nginx_sites_dir}${name}.conf": "pkg/nginx.conf",
+      "${systemd_unit_dir}${name}.service": "pkg/${name}.service"
     },
-    "http.base.path": "/services/${name}/api",
+    "http_base_path": "/services/${name}/api",
     "kronos": true
   },
   "release": {
